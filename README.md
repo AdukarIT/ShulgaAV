@@ -9,3 +9,4 @@
 
 ### *ДЗ №2*
 * [= I =](https://jsfiddle.net/ShulgaAV/tukj5916/3/)
+* [= II =](https://jsfiddle.net/ShulgaAV/tukj5916/28/)
