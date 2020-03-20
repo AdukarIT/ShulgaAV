@@ -9,5 +9,5 @@
 * [= II =](https://jsfiddle.net/ShulgaAV/tukj5916/28/)
 ## **3. Основы HTML**
 ### *ДЗ №3.1*
-
+* [Сервис ремонта мобильных телефонов](https://github.com/AdukarIT/ShulgaAV/tree/master/HTML_Link_1)
 ### *ДЗ №3.2*
