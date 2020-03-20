@@ -11,3 +11,4 @@
 ### *ДЗ №3.1*
 * [Сервис ремонта мобильных телефонов](https://github.com/AdukarIT/ShulgaAV/tree/master/HTML_Link_1)
 ### *ДЗ №3.2*
+* [Магазин оргтехники](https://github.com/AdukarIT/ShulgaAV/tree/master/HTML_Link_2)
