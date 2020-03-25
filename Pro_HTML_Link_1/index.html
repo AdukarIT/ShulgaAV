@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="be">
+<head>
+	<meta charset="UTF-8">
+	<title>Главная страница</title>
+</head>
+<body>
+	<header>
+		<pre><a href="index.html"><abbr title="Абнавіць старонку"><img src="IMG/Logo.jpg" alt="Logo of the Mlyn social network" height="45" width="45"><img src="IMG/Logo2.jpg" alt="Mlyn" height="45" width="150"><img src="IMG/Logo3.jpg" alt="Social network of photos and videos" height="45" width="350"></abbr></a><sup><abbr title="Log In"><button form="login" type="submit"><img src="IMG/Logo4.jpg" alt="Log In" height="37" width="47"></button></abbr></sup></pre>
+	</header>
+	<main>
+		<form id="login" action="feed.html" method="post" autocomplete="off">
+			<b>Уваход карыстачоў:</b>
+			<label> 
+				<i>E-mail</i> 
+				<input type="email" name="login" placeholder="name@tut.by" required>
+			</label>
+&nbsp;
+			<label>
+				<i>Пароль</i>
+				<input type="password" name="pwd" placeholder="enter your password" required>
+			</label>
+		</form>
+		<form id="reg" action="feed.html" method="post" autocomplete="off"> 
+		<h2>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Альбо рэгістрацыя ў сацыяльнай сетцы "Млын"</h2>
+			<label> 
+				<i>Імя на сервісе:</i>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				<input type="text" name="name" placeholder="enter your First Name" required>
+			</label>
+			<p>
+			<label> 
+				<i>Адрас інтэрнэт пошты:</i> 
+				<input type="email" name="email" placeholder="enter your E-mail" required>
+			</label>
+			</p>
+			<label> 
+				<i>Пароль:</i> 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				<input type="password" name="pwd" placeholder="enter your password" required>
+			</label>
+			<p>
+			<label> 
+				<i>Пацверджанне пароля:</i> 
+&nbsp;&nbsp;
+				<input type="password" name="pwd" placeholder="enter your confirm password" required>
+			</label>
+			</p>
+			<label>
+				<abbr title="Consent to the processing of my personal data">
+					<input type="checkbox" required></abbr>
+				<b>Згода з парадкам апрацоўкі маіх персанальных дадзеных</b> 
+			</label>
+			<p>
+			<button form="reg" type="submit">Зарэгістравацца ў сацыяльнай сетцы Млын</button>	
+			</p>
+		</form>
+	</main>	
+</body>
+</html>

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="be">
+<head>
+	<meta charset="UTF-8">
+	<title>Новый пост</title>
+</head>
+<body>
+	<header>
+		<pre><a href="photo-add.html"><abbr title="Абнавіць старонку"><img src="IMG/Logo.jpg" alt="Logo of the Mlyn social network" height="45" width="45"><img src="IMG/Logo2.jpg" alt="Mlyn" height="45" width="150"><img src="IMG/Logo6.jpg" alt="Color strip" height="45" width="90"></abbr></a><sup><abbr title="Назад да стужкі"><button form="Tape" type="submit"><img src="IMG/Logo8.jpg" alt="Tape" height="37" width="25"></button></abbr></sup><a href="feed.html"><abbr title="Абнавіць старонку"><img src="IMG/Logo6.jpg" alt="Color strip" height="45" width="215"></abbr></a><sup><abbr title="Log OUT"><button form="logOut" type="submit"><img src="IMG/Logo5.jpg" alt="Log In" height="37" width="50"></button></abbr></sup></pre>
+	</header>
+	<main>
+		<form id="logOut" action="index.html" method="get">
+		</form>
+		<form id="Tape" action="feed.html" method="get">
+		</form>
+		<form action="feed.html" method="get">
+			<p> <b>Абярыце файл для загрузкі фатаграфія(*.jpg, *.png) альбо відэа (*.mp4):</b></p>
+			<input type="file" accept=".jpeg, .png, video/mp4">
+            <p>
+            <label>
+            	<b>Дадаць назву паста, #(хэштэгі):</b><br>
+            	<textarea cols="30" rows="5" name="comment" placeholder="Please, enter your post title and hashtags"></textarea>
+        	</label>
+        	</p>
+    		<p> 	
+        	<input type="submit" value="Адправіць">
+    		</p>
+    	</form>
+	</main>
+</body>
+</html>
