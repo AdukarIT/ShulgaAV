@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<title>Такси "Ёжик"</title>
+</head>
+<body>
+	<header>
+		<pre><a href="order-ru.html"><abbr title="Обновить страницу"><img src="IMG/Logo.jpg" alt="Логотип такси Ёжик" height="45" width="45"><img src="IMG/Logo9.jpg" alt="Vozyk" height="45" width="150"><img src="IMG/Logo10.jpg" alt="Национальное такси Ёжик" height="45" width="420"></abbr></a>
+			<sup>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<abbr title="BY"><button form="BY" type="submit"><img src="IMG/Logo4.jpg" alt="Language BY" height="30" width="40"></button></abbr></sup>&nbsp;&nbsp;&nbsp;<sup><abbr title="EN"><button form="EN" type="submit"><img src="IMG/Logo5.jpg" alt="Language EN" height="30" width="40"></button></abbr></sup>&nbsp;&nbsp;&nbsp;<sup><abbr title="RU"><button form="RU" type="submit"><img src="IMG/Logo6.jpg" alt="Language RU" height="30" width="40"></button></abbr></sup></pre>
+	</header>
+	<main>
+		<form id="BY" action="order-by.html" method="get"></form>
+		<form id="EN" action="order-en.html" method="get"></form>
+		<form id="RU" action="order-ru.html" method="get"></form>
+		<form id="taxi" action="#" method="get" autocomplete="off"> 
+		<h2>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Форма заказа такси:</h2>
+			<label> 
+				<i>Имя пассажира:</i>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				<input type="text" name="name" placeholder="enter your First Name" required>
+			</label>
+			<p>
+			<label> 
+				<i>Адрес (откуда):</i>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				<input type="text" name="address" placeholder="enter your address" required>
+			</label>
+			</p>
+			<label> 
+				<i>Номер телефона для связи:</i> 
+&nbsp;
+				<input type="tel" name="phone" placeholder="enter your phone number" required>
+			</label>
+			<p>
+			<label>
+				<i>Тип оплаты:</i> 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				<input type="radio" name="pay" value="inCash" required>Наличные деньги
+			</label>
+			</p>
+			<p>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			<label>
+				<input type="radio" name="pay" value="payCard" required>Банковская карта
+			</label>
+			</p>
+			<p>
+			<label>
+				<i>Класс автомобиля:</i>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				<select name="class">
+					<option value="base">
+						Базовый
+					</option>
+					<option value="prem">
+						Премиум
+					</option>
+					<option value="lux">
+						Люкс
+					</option>
+				</select>
+			</label>
+			</p>
+			<p>
+			<label>
+				<i>Дополнительные опции:</i> 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				<input type="checkbox" name="bigCar" value="minivan">Минивэн
+			</label>
+			</p>
+			<p>
+			<label>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				<input type="checkbox" name="child" value="childSeat">Детское кресло
+			</label>
+			</p>
+			<p>
+			<label>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				<input type="checkbox" name="driver" value="englishDriver">Англоговорящий водитель
+			</label>
+			</p>
+			<p>
+            <label>
+            	<b>Комментарии:</b><br>
+            	<textarea cols="30" rows="5" name="comment" placeholder="Please, enter your comments"></textarea>
+        	</label>
+        	</p>
+    		<p> 	
+        	<input type="submit" value="Заказаць">
+    		</p>
+		</form>
+	</main>	
+	<footer>
+&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;
+		<div>
+			<h3 id="contact">Контактная информация для заказа по короткому номеру телефона:</h3>
+				<h3><a href="tel:5055523"><img src="IMG/MTS.jpg" alt="MTC"></a>&nbsp;<a href="tel:5055523"><img src="IMG/A1.jpg" alt="A1"></a>&nbsp;<a href="tel:5055523"><img src="IMG/Life.jpg" alt="Life"></a>&nbsp;<a href="tel:5055523"><sup>505</sup></a></h3>
+		</div>
+	</footer>
+</body>
+</html>

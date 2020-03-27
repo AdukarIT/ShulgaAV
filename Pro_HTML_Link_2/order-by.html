@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="be">
+<head>
+	<meta charset="UTF-8">
+	<title>Таксі "Вожык"</title>
+</head>
+<body>
+	<header>
+		<pre><a href="order-by.html"><abbr title="Абнавіць старонку"><img src="IMG/Logo.jpg" alt="Лагатып таксі Вожык" height="45" width="45"><img src="IMG/Logo2.jpg" alt="Vozyk" height="45" width="150"><img src="IMG/Logo3.jpg" alt="Нацыянальнае таксі Вожык" height="45" width="420"></abbr></a>
+			<sup>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<abbr title="BY"><button form="BY" type="submit"><img src="IMG/Logo4.jpg" alt="Language BY" height="30" width="40"></button></abbr></sup>&nbsp;&nbsp;&nbsp;<sup><abbr title="EN"><button form="EN" type="submit"><img src="IMG/Logo5.jpg" alt="Language EN" height="30" width="40"></button></abbr></sup>&nbsp;&nbsp;&nbsp;<sup><abbr title="RU"><button form="RU" type="submit"><img src="IMG/Logo6.jpg" alt="Language RU" height="30" width="40"></button></abbr></sup></pre>
+	</header>
+	<main>
+		<form id="BY" action="order-by.html" method="get"></form>
+		<form id="EN" action="order-en.html" method="get"></form>
+		<form id="RU" action="order-ru.html" method="get"></form>
+		<form id="taxi" action="#" method="get" autocomplete="off"> 
+		<h2>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Форма заказу таксі:</h2>
+			<label> 
+				<i>Імя пасажыра:</i>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				<input type="text" name="name" placeholder="enter your First Name" required>
+			</label>
+			<p>
+			<label> 
+				<i>Адрас (адкуль):</i>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+				<input type="text" name="address" placeholder="enter your address" required>
+			</label>
+			</p>
+			<label> 
+				<i>Нумар тэлефона для сувязі:</i> 
+&nbsp;
+				<input type="tel" name="phone" placeholder="enter your phone number" required>
+			</label>
+			<p>
+			<label>
+				<i>Тып аплаты:</i> 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				<input type="radio" name="pay" value="inCash" required>Наяўныя грошы
+			</label>
+			</p>
+			<p>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			<label>
+				<input type="radio" name="pay" value="payCard" required>Банкаўская карта
+			</label>
+			</p>
+			<p>
+			<label>
+				<i>Клас аўтамабіля:</i>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				<select name="class">
+					<option value="base">
+						Базавы
+					</option>
+					<option value="prem">
+						Прэміяньны
+					</option>
+					<option value="lux">
+						Люкс
+					</option>
+				</select>
+			</label>
+			</p>
+			<p>
+			<label>
+				<i>Дадатковыя опцыі:</i> 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				<input type="checkbox" name="bigCar" value="minivan">Мінівэн
+			</label>
+			</p>
+			<p>
+			<label>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				<input type="checkbox" name="child" value="childSeat">Дзіцячая сядушка
+			</label>
+			</p>
+			<p>
+			<label>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				<input type="checkbox" name="driver" value="englishDriver">Ангельскамоўны кіроўца
+			</label>
+			</p>
+			<p>
+            <label>
+            	<b>Каментары:</b><br>
+            	<textarea cols="30" rows="5" name="comment" placeholder="Please, enter your comments"></textarea>
+        	</label>
+        	</p>
+    		<p> 	
+        	<input type="submit" value="Заказаць">
+    		</p>
+		</form>
+	</main>	
+	<footer>
+&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;
+		<div>
+			<h3 id="contact">Кантактная інфармацыя для заказу па кароткім нумары тэлефона:</h3>
+				<h3><a href="tel:5055523"><img src="IMG/MTS.jpg" alt="MTC"></a>&nbsp;<a href="tel:5055523"><img src="IMG/A1.jpg" alt="A1"></a>&nbsp;<a href="tel:5055523"><img src="IMG/Life.jpg" alt="Life"></a>&nbsp;<a href="tel:5055523"><sup>505</sup></a></h3>
+		</div>
+	</footer>
+</body>
+</html>
