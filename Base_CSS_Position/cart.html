@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<title>Интернет-магазин</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<header>
+	<div class="Shop">
+		<div class="Shop_picture1"></div>
+		<a class="Shop_name" href="cart.html">SKRYPKA</a>
+		<div class="Shop_picture2"></div>
+	</div>
+		<nav class="dropdownMenu">
+  			<ul>
+    			<li>
+      				<a href="#">Бытовая техника</a>
+      				<ul>
+        				<li><a href="#">Стиральные машины</a></li>
+        				<li><a href="#">Сушильные машины</a></li>
+        				<li><a href="#">Пылесосы</a></li>
+        				<li><a href="#">Швейные, вышивальные машины</a></li>
+        				<li><a href="#">Утюги</a></li>
+        				<li><a href="#">Электровеники</a></li>
+        				<li><a href="#">Сушилки для обуви</a></li>
+      				</ul>
+    			</li>
+  			</ul>
+  			<ul>
+    			<li>
+      				<a href="#">Техника для кухни</a>
+      				<ul>
+        				<li><a href="#">Холодильники</a></li>
+        				<li><a href="#">Кухонные плиты</a></li>
+        				<li><a href="#">Морозильники</a></li>
+        				<li><a href="#">Настольные плиты</a></li>
+        				<li><a href="#">Ростеры, мини-печи</a></li>
+        				<li><a href="#">Вытяжки</a></li>
+        				<li><a href="#">Микроволновые печи</a></li>
+      				</ul>
+    			</li>
+  			</ul>
+  			<ul>
+    			<li>
+      				<a href="#">Компьютерная техника</a>
+      				<ul>
+        				<li><a href="#">Ноутбуки</a></li>
+        				<li><a href="#">Планшеты</a></li>
+        				<li><a href="#">Компьютеры, моноблоки</a></li>
+        				<li><a href="#">Игровые приставки</a></li>
+        				<li><a href="#">Серверное оборудование</a></li>
+      				</ul>
+    			</li>
+  			</ul>
+  			<ul>
+    			<li>
+      				<a href="#">Корзина</a>
+    			</li>
+  			</ul>
+		</nav>
+	</header>
+	<main>
+		<form id="shop_order" action="#" method="get" autocomplete="off"> 
+			<div>
+				<h1>Форма отправки заказа:</h1>
+				<div class="User_data">
+					<label>Фамилия и Имя:
+					<input type="text" name="name" placeholder="enter your Surname and First Name" required>
+					</label>
+					<label>Номер телефона:
+					<input type="tel" name="phone" placeholder="enter your phone number" required>
+					</label>
+					<label>E-mail:
+					<input type="email" name="login" placeholder="for example - name@tut.by" required>
+					</label>
+				</div>
+				<h2>Выберите способ доставки:</h2>
+			</div>
+			<div class="Pickup">
+				<label>
+					<input type="radio" name="Delivery_methods" required>Самовывоз со склада по адресу:
+				</label>
+				<div class="Address">
+					<input type="checkbox" id="maps">
+					<label for="maps">г.Минск, ул.Уручская, д.11</label>
+					<ul>
+						<li>
+							<iframe src="https://yandex.by/map-widget/v1/-/COE~ANL5" width="420" height="235"></iframe>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="Delivery">
+				<input type="radio" id="adr" class="Courier" name="Delivery_methods" required
+				><label for="adr">Курьером по Минску</label>
+				<div class="Courier_address">
+				<label>Адресс доставки:
+					<input type="text" name="address" placeholder="enter your delivery address" required>
+				</label>
+				</div>
+			</div>
+			<div class="Comments">
+				<label>
+            	Комментарии к заказу:<br>
+            	<textarea name="comment" placeholder="Please, enter your comments"></textarea>
+        	</label>
+			</div>
+			<div class="Consent">
+				<input type="checkbox" id="btn" class="cons" required>
+				<label for="btn" class="cons">"Я прочитал и согласен с
+				<a href="cart.html">условиями доставки"</a></label>
+				<div class="Button">
+					<input type="submit" value="Подтвердить заказ">
+				</div>
+			</div>
+		</form>
+	</main>
+	<footer>
+		<address>
+			<div class="Contacts">
+				<p><span>Контакты:</span></p>
+				<a href="tel:+375335055523"><img src="IMG/MTS.png" alt="MTC"></a>
+				<a href="tel:+375445055523"><img src="IMG/A1.png" alt="A1"></a>
+				<a href="tel:+375255055523"><img src="IMG/Life.png" alt="Life"></a>
+				<a href="tel:5055523">505-55-23</a>
+				<a href="skype:student"><img src="IMG/skype.png" alt="Skype"></a>
+				<a href="skype:student">Скрыпка</a>
+			</div>
+			<div class="Office">
+				<p><span>Адрес офиса:</span></p>
+				<a href="https://yandex.by/maps/-/CKq6yR~p" target="_blank">220125, г.Минск, ул.Уручская, д.11, офис 106</a>
+			</div>
+			<div class="Time_Work">
+				<p><span>Время работы магазина:</span></p>
+				<p>8:00 - 20:00</p>
+			</div>
+		</address>
+	</footer>
+</body>
+</html>

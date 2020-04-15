@@ -1,0 +1,255 @@
+body{
+	width: 100%;
+	max-width: 1920px;
+	height: 1000px;
+	max-height: 100%;
+	margin: 0 auto;
+}
+
+.Shop{
+	line-height: 70px;
+	height: 70px;
+	background-image: url(IMG/fon.jpg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.Shop_picture1{
+	width: 30%;
+	height: 70px;
+	float: left;
+	background-image: url(IMG/sk.gif);
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.Shop_name{
+	display: inline-block;
+	width: 40%;
+	text-decoration: none;
+	color: red;
+	font-family: Jokerman;
+  	font-size: 7vmin;
+	text-align: center;
+}
+
+.Shop_picture2{
+	width: 30%;
+	height: 70px;
+	float: right;
+	background-image: url(IMG/pc.gif);
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+nav {
+	position: relative;
+	z-index: 1000;
+	background-color: green;
+	text-align: center;
+}
+
+nav a {
+	width: 200px;
+	text-decoration: none;
+	color: white;
+  	font-size: 20px;
+  	padding: 10px 15px;
+  	display:inline-block;
+}
+
+ul {
+	display: inline;
+	margin: 0;
+	padding: 0;
+}
+
+ul li {
+	display: inline-block;
+	outline: 1px solid #000;
+}
+
+ul li:hover {
+	background: #555;
+}
+
+ul li:hover ul {
+	display: block;
+}
+
+ul li ul {
+  position: absolute;
+  width: 230px;
+  display: none;
+}
+
+ul li ul li {
+	background: #555;
+	display: block; 
+}
+
+ul li ul li:hover {
+	background: #666;
+}
+
+main{
+	width: 100%;
+	height: 75%;
+	background-image: url(IMG/fon2.jpg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	font-family: sans;
+	font-style: italic;
+	color: white;
+}
+
+h1{
+	margin: 0 auto;
+	text-align: center;
+}
+
+.User_data label{
+	display: block;
+	margin: 15px 10px;
+}
+
+.User_data label > input{
+	width: 210px;
+	text-align: center;
+}
+
+.User_data label:nth-child(1) > input{
+	margin: 0 0 0 9px;
+}
+
+.User_data label:nth-child(3) > input{
+	margin: 0 0 0 71px;
+}
+
+.Pickup, .Comments, .Delivery, .Courier_address, .Button{
+	margin: 15px 10px;
+}
+
+.Pickup input, .Courier{
+	margin: 0 5px 0 0;
+}
+
+h2{
+	margin: 0 auto;
+	text-align: center;
+}
+
+.Address{
+	display: inline-block;
+	position: relative;
+}
+
+.Address input{
+	display: none;
+}
+
+.Address label{
+	width: 196px;
+	color: red;
+	font-family: sans-serif;
+	cursor: pointer;
+	border-bottom: 1px dashed yellow;
+}
+
+.Address ul{
+	visibility: hidden;
+	position: absolute;
+	left: 0;
+	top: 25px;
+	list-style: none;
+	margin: 0 auto;
+}
+
+.Address :checked ~ ul{
+	visibility: visible;
+   }
+
+.Courier:not(:checked) + label + *{
+	visibility: hidden;
+   }
+
+.Courier_address{
+	margin: 15px 0;
+}
+
+.Courier_address label > input{
+	width: 210px;
+	text-align: center;
+}
+
+textarea{
+	width: 230px;
+    height: 140px;
+    resize: none;
+}
+
+.cons:not(:checked) + label + *{
+	opacity: 0.6;
+	pointer-events: none;
+   }
+
+.Consent{
+	font-size: 17px;
+}
+
+.Consent a{
+	text-decoration: none;
+	color: orange;
+}
+
+.Consent input{
+	margin: 0 0 0 10px;
+}
+
+footer{
+	height: 25%;
+	background-color: silver;
+	font-family: sans;
+	font-style: italic;
+	color: black;
+}
+
+address{
+	text-align: center;
+}
+
+.Contacts, .Office, .Time_Work{
+	width: 400px;
+	margin: 10px auto;
+	text-align: center;
+	display: inline-block;
+	vertical-align: top;
+}
+
+div p{
+	margin: 0 0 10px;
+}
+
+div p ~ a{
+	text-decoration: none;
+	color: green;
+}
+
+div p > span{
+	text-decoration-line: underline;
+	font-size: 20px;
+}
+
+.Contacts a:nth-child(5){
+	vertical-align: top;
+	margin: 0 30px 0 0;
+}
+
+.Contacts a:nth-child(7){
+	vertical-align: top;
+}
+	
