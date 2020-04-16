@@ -1,0 +1,14 @@
+body{
+	margin: 0;
+}
+
+div{
+	height: 100vh;
+	background-image: url(IMG/sun.png), url(IMG/sea.jpg), url(IMG/sky.jpg);
+	background-repeat: no-repeat;
+	background-position: 37% 0%, 50% 100%, 50% 0%;
+	background-size: 17%, 100% 32%, 100% 70%;
+}
+
+
+	

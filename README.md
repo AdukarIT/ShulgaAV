@@ -20,3 +20,6 @@
 ## **8. Основы CSS. Позиционирование**
 ### *ДЗ №8*
 * [Форма заказа в интернет магазине](https://github.com/AdukarIT/ShulgaAV/tree/master/Base_CSS_Position)
+## **10. CSS. Стилистическое оформление элементов**
+### *ДЗ №10.1*
+* [Форма заказа в интернет магазине](https://github.com/AdukarIT/ShulgaAV/tree/master/Base_CSS_Style_1)
