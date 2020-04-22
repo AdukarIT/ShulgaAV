@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="be">
+<head>
+	<meta charset="UTF-8">
+	<title>Лента</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Caveat&display=swap" rel="stylesheet">
+</head>
+<body>
+	<header>
+		<a class="logo" href="feed.html">
+            <img class="logo__icon" src="IMG/logo.jpg" alt="Logo of the Mlyn social network">
+            <abbr class="hint__context hint__context_hidden hint__context_visible">Абнавіць старонку</abbr>
+            <b class="name">Mlyn</b>
+        </a>
+        <a class="button__photo-add" href="photo-add.html">
+            <img class="button__icon" src="IMG/button__photo-add.jpg" alt="New Post">
+            <abbr class="hint__context hint__context_hidden hint__context_visible">Стварыць новы пост</abbr>
+        </a>
+        <a class="button__log-out" href="index.html">
+            <img class="button__icon" src="IMG/button__log-out.jpg" alt="Log OUT">
+            <abbr class="hint__context hint__context_hidden hint__context_visible">Log OUT</abbr>
+        </a>
+	</header>
+	<main>
+            <div class="user-post">
+                <div class="user-post__header">
+                    <img class="user-post__avatar" src="IMG/taksin.jpg" alt="Иконка пользователя"
+                    ><p class="user-post__name">Андрэй</p>
+                </div>
+                <img class="user-post__media" src="IMG/1.jpg" alt="Фотаздымак Андрэя">
+                <div class="user-post__hashteg">
+                    <a class="hashteg" href="feed.html">#ЗЛЖ</a>
+                    <a class="hashteg" href="feed.html">#ровар</a>
+                    <a class="hashteg" href="feed.html">#прырода</a>
+                    <a class="hashteg" href="feed.html">#велапаход</a>
+                    <a class="hashteg" href="feed.html">#уручча</a>
+                </div>
+                <div class="user-post__comments">
+                    <div class="comments__user">
+                        <b class="user__name">VeloBy</b>
+                        <span class="user__comments">Крута&#9786;</span>
+                        <a class="hashteg" href="feed.html">#велазапчасткі</a>
+                        <a class="hashteg" href="feed.html">#VeloBy</a>
+                    </div>
+                    <div class="comments__user">
+                        <b class="user__name">Віктар</b>
+                        <span class="user__comments">А шо мяне не паклікаў?</span>
+                        <a class="hashteg" href="feed.html">#ЗЛЖ</a>
+                        <a class="hashteg" href="feed.html">#ровар</a>
+                        <a class="hashteg" href="feed.html">#прырода</a>
+                    </div>
+                    <div class="comments__user">
+                        <b class="user__name">Андрэй</b>
+                        <span class="user__comments">Ровар для пачатку знайдзі :)</span>
+                    </div>
+                    <div class="comments__user">
+                        <b class="user__name">Аляксандр</b>
+                        <span class="user__comments">А ў мяне ёсць ровар, возьмешь?</span>
+                    </div>
+                     <div class="comments__user">
+                        <b class="user__name">Андрэй</b>
+                        <span class="user__comments">Зразумела :)</span>
+                    </div>
+                </div>
+                <div class="user-post__comments-add">
+                    <form action="feed.html" method="get">
+                        <label>Дадаць каментар:<br>
+                        <textarea cols="30" rows="5" name="comment" placeholder="Please, enter your comments"></textarea>
+                        </label>
+                        <div class="button">
+                            <input type="submit" value="Адправіць">
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="user-post">
+                <div class="user-post__header">
+                    <img class="user-post__avatar" src="IMG/adamant_arhangel.jpg" alt="Иконка пользователя"
+                    ><p class="user-post__name">Віктар</p>
+                </div>
+                <img class="user-post__media" src="IMG/2.jpg" alt="Фотаздымак Віктара">
+                <div class="user-post__hashteg">
+                    <a class="hashteg" href="feed.html">#To be or not to be</a>
+                    <a class="hashteg" href="feed.html">#Polimer</a>
+                </div>
+                <div class="user-post__comments">
+                    <div class="comments__user">
+                        <b class="user__name">Андрэй</b>
+                        <span class="user__comments">Крутыя крылы, сам зрабіў?</span>
+                    </div>
+                    <div class="comments__user">
+                        <b class="user__name">Віктар</b>
+                        <span class="user__comments">Так, разам з жонкай :)</span>
+                    </div>
+                </div>
+                <div class="user-post__comments-add">
+                    <form action="feed.html" method="get">
+                        <label>Дадаць каментар:<br>
+                        <textarea cols="30" rows="5" name="comment" placeholder="Please, enter your comments"></textarea>
+                        </label>
+                        <div class="button">
+                            <input type="submit" value="Адправіць">
+                        </div>
+                    </form>
+                </div>
+            </div>
+             <div class="user-post">
+                <div class="user-post__header">
+                    <img class="user-post__avatar" src="IMG/a.panteley.jpg" alt="Иконка пользователя"
+                    ><p class="user-post__name">Аляксандр</p>
+                </div>
+                <iframe class="user-post__media" src="https://www.youtube.com/embed/LWeUY0ClomA"></iframe>
+                <div class="user-post__hashteg">
+                    <a class="hashteg" href="feed.html">#Lidbeer2018</a>
+                    <a class="hashteg" href="feed.html">#Belmusic</a>
+                    <a class="hashteg" href="feed.html">#Nizkiz</a>
+                    <a class="hashteg" href="feed.html">#НашДзень</a>
+                </div>
+                <div class="user-post__comments">
+                    <div class="comments__user">
+                        <b class="user__name">Віктар</b>
+                        <span class="user__comments">І я там быў :)</span>
+                    </div>
+                    <div class="comments__user">
+                        <b class="user__name">Андрэй</b>
+                        <span class="user__comments">Вельмі круты беларускі гурт :)</span>
+                    </div>
+                </div>
+                <div class="user-post__comments-add">
+                    <form action="feed.html" method="get">
+                        <label>Дадаць каментар:<br>
+                        <textarea cols="30" rows="5" name="comment" placeholder="Please, enter your comments"></textarea>
+                        </label>
+                        <div class="button">
+                            <input type="submit" value="Адправіць">
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="user-post">
+                <div class="user-post__header">
+                    <img class="user-post__avatar" src="IMG/garynych_ilua.jpg" alt="Иконка пользователя"
+                    ><p class="user-post__name">Ілля</p>
+                </div>
+                <iframe class="user-post__media" src="https://vk.com/video_ext.php?oid=-12429251&id=456241232&hash=a3cb0032d38d2cc1"></iframe>
+                <div class="user-post__hashteg">
+                    <a class="hashteg" href="feed.html">#Праграміст</a>
+                    <a class="hashteg" href="feed.html">#FrontEND</a>
+                    <a class="hashteg" href="feed.html">#Freelance</a>
+                    <a class="hashteg" href="feed.html">#Заставайцеся дома</a>
+                </div>
+                <div class="user-post__comments">
+                    <div class="comments__user">
+                        <b class="user__name">Андрэй</b>
+                        <span class="user__comments">Гэта, менавіта пра цябе &#9786;</span>
+                    </div>
+                    <div class="comments__user">
+                        <b class="user__name">Віктар</b>
+                        <span class="user__comments">Гледзячы на яго, да ежы ён дабіраецца хутка :)</span>
+                    </div>
+                    <div class="comments__user">
+                        <b class="user__name">Аляксандр</b>
+                        <span class="user__comments">Дык, ён бяжыць хутчэй, чым веладарожка!!!</span>
+                    </div>
+                     <div class="comments__user">
+                        <b class="user__name">Ілля</b>
+                        <span class="user__comments">Добрага распрацоўшчыка павінна быць шмат :)</span>
+                    </div>
+                </div>
+                <div class="user-post__comments-add">
+                    <form action="feed.html" method="get">
+                        <label>Дадаць каментар:<br>
+                        <textarea cols="30" rows="5" name="comment" placeholder="Please, enter your comments"></textarea>
+                        </label>
+                        <div class="button">
+                            <input type="submit" value="Адправіць">
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="user-post">
+                <div class="user-post__header">
+                   <img class="user-post__avatar" src="IMG/taksin.jpg" alt="Иконка пользователя"
+                    ><p class="user-post__name">Андрэй</p>
+                </div>
+                <img class="user-post__media" src="IMG/3.jpg" alt="Фотаздымак Андрэя">
+                <div class="user-post__hashteg">
+                    <a class="hashteg" href="feed.html">#Lют@Ў$kі ZлыDзень</a>
+                    <a class="hashteg" href="feed.html">#Дарагі Паэт</a>
+                    <a class="hashteg" href="feed.html">#Вершы</a>
+                    <a class="hashteg" href="feed.html">#Сам Сабе Паэт</a>
+                </div>
+                <div class="user-post__comments">
+                    <div class="comments__user">
+                        <b class="user__name">Андрэй</b>
+                        <span class="user__comments">Немного жести и романтики / И капли света в темноте /Мы создаём цветные фантики / Сжимая атомы в руке...</span>
+                    </div>
+                    <div class="comments__user">
+                        <b class="user__name">Віктар</b>
+                        <span class="user__comments">Поспехаў цябе!</span>
+                    </div>
+                    <div class="comments__user">
+                        <b class="user__name">Андрэй</b>
+                        <span class="user__comments">Вялікі Дзякуй:)</span>
+                    </div>
+                </div>
+                <div class="user-post__comments-add">
+                    <form action="feed.html" method="get">
+                        <label>Дадаць каментар:<br>
+                        <textarea cols="30" rows="5" name="comment" placeholder="Please, enter your comments"></textarea>
+                        </label>
+                        <div class="button">
+                            <input type="submit" value="Адправіць">
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="user-post">
+                <div class="user-post__header">
+                    <img class="user-post__avatar" src="IMG/ignaaaaaat.jpg" alt="Иконка пользователя"
+                    ><p class="user-post__name">Ігнат</p>
+                </div>
+                <iframe class="user-post__media" src="https://vk.com/video_ext.php?oid=-45627030&id=456239147&hash=3e715b74fd43a672"></iframe>
+                <div class="user-post__hashteg">
+                    <a class="hashteg" href="feed.html">#Беларускамоўны</a>
+                    <a class="hashteg" href="feed.html">#БЧБ</a>
+                    <a class="hashteg" href="feed.html">#Жыве Беларусь</a>
+                    <a class="hashteg" href="feed.html">#Беларускі ўікэнд</a>
+                </div>
+                <div class="user-post__comments">
+                    <div class="comments__user">
+                        <b class="user__name">Андрэй</b>
+                        <span class="user__comments">Файная классіка, ды на роднай мове :)</span>
+                    </div>
+                    <div class="comments__user">
+                        <b class="user__name">Віктар</b>
+                        <span class="user__comments">Глядзеў сёння ў кінатэатры</span>
+                        <a class="hashteg" href="feed.html">#silverscreen</a>
+                    </div>
+                    <div class="comments__user">
+                        <b class="user__name">Аляксандр</b>
+                        <span class="user__comments">А я толькі збіраюся паглядзець</span>
+                    </div>
+                     <div class="comments__user">
+                        <b class="user__name">Ілля</b>
+                        <span class="user__comments">І мяня з сабой возьмешь :)</span>
+                    </div>
+                </div>
+                <div class="user-post__comments-add">
+                    <form action="feed.html" method="get">
+                        <label>Дадаць каментар:<br>
+                        <textarea cols="30" rows="5" name="comment" placeholder="Please, enter your comments"></textarea>
+                        </label>
+                        <div class="button">
+                            <input type="submit" value="Адправіць">
+                        </div>
+                    </form>
+                </div>
+            </div>
+	</main>
+</body>
+</html>

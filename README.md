@@ -23,3 +23,5 @@
 ## **10. CSS. Стилистическое оформление элементов**
 ### *ДЗ №10.1*
 * [Пляж](https://github.com/AdukarIT/ShulgaAV/tree/master/Base_CSS_Style_1)
+### *ДЗ №10.2*
+* [Соцсеть фотографий и видео со стилями](https://github.com/AdukarIT/ShulgaAV/tree/master/Base_CSS_Style_2)
