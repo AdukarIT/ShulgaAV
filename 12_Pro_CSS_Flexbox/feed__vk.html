@@ -1,0 +1,577 @@
+<!DOCTYPE html>
+<html lang="be">
+<head>
+	<meta charset="UTF-8">
+	<title>Лента</title>
+    <link rel="stylesheet" type="text/css" href="style__vk.css">
+</head>
+<body class="conteiner">
+	<header class="conteiner__menu">
+        <div class="menu">
+            <a class="menu__logo-hashteg" href="feed__vk.html">
+                <img class="menu__logo" src="data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2024%2024%22%3E%3Cpath%20d%3D%22M15.68%200C22.4%200%2024%201.6%2024%208.32v7.36C24%2022.4%2022.4%2024%2015.68%2024H8.32C1.6%2024%200%2022.4%200%2015.68V8.32C0%201.6%201.6%200%208.32%200zM6.5%207.5H4.75c-.5%200-.6.24-.6.49%200%20.47.59%202.77%202.76%205.81a6.85%206.85%200%20005.34%203.2c1.11%200%201.25-.25%201.25-.68v-1.57c0-.5.11-.6.46-.6s.7.13%201.74%201.13c1.19%201.19%201.38%201.72%202.05%201.72h1.75c.5%200%20.75-.25.61-.74a7.43%207.43%200%2000-1.48-2.05c-.41-.49-1-1-1.21-1.26s-.18-.49%200-.78a21.83%2021.83%200%20002.36-4c.11-.37%200-.64-.53-.64H17.5a.77.77%200%2000-.76.49%2014.67%2014.67%200%2001-2.15%203.58c-.41.41-.6.54-.82.54s-.27-.13-.27-.5v-3.5c0-.44-.13-.64-.5-.64h-2.75a.43.43%200%2000-.45.4c0%20.42.64.52.7%201.71v2.57c0%20.57-.1.67-.32.67-.6%200-2-2.18-2.9-4.67C7.12%207.7%207%207.5%206.5%207.5z%22%20fill%3D%22%23fff%22%20fill-rule%3D%22evenodd%22%2F%3E%3C%2Fsvg%3E" alt="logo">
+                <div class="menu__hashteg">#заставайцесядома</div>
+            </a>
+            <div class="menu__search-bar">
+                <input type="text" class="search__input" autocomplete="off" placeholder="Пошук">
+            </div>
+            <div class="menu__media">
+                <a class="media__notifications" href="feed__vk.html">
+                    <div class="notifications__icon"></div>
+                </a>
+                <div class="media__player">
+                    <a class="player__browser" href="feed__vk.html">
+                        <div class="player__browser-icon"></div>
+                    </a>
+                    <button class="player__audio">
+                        <span class="audio__icon-before"></span>
+                        <img class="audio__icon" src="IMG/audio__icon.svg" alt="audio__icon">
+                    </button>
+                </div>
+            </div>
+            <div class="menu__page">
+                <a class="page__user" href="feed__vk.html">
+                    <div class="user__name">Андрэй</div>
+                    <img class="user__avatar" src="IMG/taksin.jpg" alt="Иконка пользователя">
+                    <div class="user__arrow-menu"></div>
+                </a>
+            </div>
+        </div>
+	</header>
+	<main class="conteiner__user">
+        <div class="user__page-menu">
+            <div class="page-menu">
+                <nav class="menu__list">
+                    <ul class="list">
+                        <li class="item">
+                            <a class="list__item" href="feed__vk.html">
+                                <span class="item__icon item__my-page"></span>
+                                <span class="item__label">Мая старонка</span>
+                            </a>
+                            <span class="settings"></span>
+                        </li>
+                        <li class="item">
+                            <a class="list__item" href="feed__vk.html">
+                                <span class="item__icon item__news"></span>
+                                <span class="item__label">Навіны</span>
+                            </a>
+                            <span class="settings"></span>
+                        </li>
+                        <li class="item">
+                            <a class="list__item" href="feed__vk.html">
+                                <span class="item__icon item__msg"></span>
+                                <span class="item__label">Паведамленні</span>
+                            </a>
+                            <span class="settings"></span>
+                        </li>
+                        <li class="item">
+                            <a class="list__item" href="feed__vk.html">
+                                <span class="item__icon item__friends"></span>
+                                <span class="item__label">Сябры</span>
+                            </a>
+                            <span class="settings"></span>
+                        </li>
+                        <li class="item">
+                            <a class="list__item" href="feed__vk.html">
+                                <span class="item__icon item__groups"></span>
+                                <span class="item__label">Суполкі</span>
+                            </a>
+                            <span class="settings"></span>
+                        </li>
+                        <li class="item">
+                            <a class="list__item" href="feed__vk.html">
+                                <span class="item__icon item__photo"></span>
+                                <span class="item__label">Фотаздымкі</span>
+                            </a>
+                            <span class="settings"></span>
+                        </li>
+                        <li class="item">
+                            <a class="list__item" href="feed__vk.html">
+                                <span class="item__icon item__music"></span>
+                                <span class="item__label">Музыка</span>
+                            </a>
+                            <span class="settings"></span>
+                        </li>
+                        <li class="item">
+                            <a class="list__item" href="feed__vk.html">
+                                <span class="item__icon item__video"></span>
+                                <span class="item__label">Відэа</span>
+                            </a>
+                            <span class="settings"></span>
+                        </li>
+                    </ul>
+                    <div class="menu__line"></div>
+                    <ul class="list">
+                        <li class="item">
+                            <a class="list__item" href="feed__vk.html">
+                                <span class="item__icon item__marker"></span>
+                                <span class="item__label">Закладкі</span>
+                            </a>
+                            <span class="settings"></span>
+                        </li>
+                        <li class="item">
+                            <a class="list__item" href="feed__vk.html">
+                                <span class="item__icon item__docs"></span>
+                                <span class="item__label">Дакументы</span>
+                            </a>
+                            <span class="settings"></span>
+                        </li>
+                    </ul>
+                    <div class="menu__line"></div>
+                    <ul class="list">
+                        <li class="item">
+                            <a class="list__item" href="feed__vk.html">
+                                <span class="item__icon item__covid"></span>
+                                <span class="item__label">Каранавірус</span>
+                            </a>
+                            <span class="settings"></span>
+                        </li>
+                        <li class="item">
+                            <a class="list__item" href="feed__vk.html">
+                                <span class="item__icon item__poster"></span>
+                                <span class="item__label">Афіша</span>
+                            </a>
+                            <span class="settings"></span>
+                        </li>
+                    </ul>
+                    <div class="menu__line"></div>
+                    <ul class="list">
+                        <li class="item">
+                            <a class="list__item" href="feed__vk.html">
+                                <span class="item__icon item__groups"></span>
+                                <span class="item__label">Майнінг_BY</span>
+                            </a>
+                            <span class="settings"></span>
+                        </li>
+                        <li class="item">
+                            <a class="list__item" href="feed__vk.html">
+                                <span class="item__icon item__groups"></span>
+                                <span class="item__label">Lют@Ў$kі ZлыDзень</span>
+                            </a>
+                            <span class="settings"></span>
+                        </li>
+                    </ul>
+                    <div class="menu__line"></div>
+                    <ul class="list">
+                        <li class="item">
+                            <a class="list__item" href="feed__vk.html">
+                                <span class="item__icon item__my-apps"></span>
+                                <span class="item__label">Мои Гости</span>
+                            </a>
+                            <span class="settings"></span>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+        <div class="news">
+            <div class="news__feed">
+                <div class="user__post-new">
+                    <div class="post-new__input">
+                        <input type="text" class="new__input" autocomplete="off" placeholder="Што ў Вас новага?">
+                        <div class="new__media">
+                            <div class="new__add add_photo">
+                                <abbr class="hint__context hint__context_hidden hint__context_visible">Фотаздымак
+                                    <span class="hint__context-before"></span>
+                                </abbr>
+                            </div>
+                            <div class="new__add add_video">
+                                <abbr class="hint__context hint__context_hidden hint__context_visible">Відэазапіс
+                                    <span class="hint__context-before"></span>
+                                </abbr>
+                            </div>
+                            <div class="new__add add_music">
+                                <abbr class="hint__context hint__context_hidden hint__context_visible">Аўдыязапіс
+                                    <span class="hint__context-before"></span>
+                                </abbr>
+                            </div>
+                            <div class="new__add add_article">
+                                <abbr class="hint__context hint__context_hidden hint__context_visible">Артыкул
+                                    <span class="hint__context-before"></span>
+                                </abbr>
+                            </div>
+                        </div>
+                        <div class="new__input-drawings">
+                            <div class="drawings__icon">
+                                <abbr class="hint__context hint__context_hidden hint__context_visible">Постар
+                                    <span class="hint__context-before"></span>
+                                </abbr>
+                            </div>
+                        </div>
+                    </div>
+                    <img class="user__avatar" src="IMG/taksin.jpg" alt="Иконка пользователя">
+                </div>
+                <div class="user-history">
+                    <span class="history">Гісторыі
+                        <span class="history__settings">Налады</span>
+                    </span>
+                    <div class="history__bar">
+                       <div class="bar history__user">
+                            <span class="history-user__picture"></span>
+                            <span class="history-user__label">Гісторыя</span>
+                       </div>
+                       <div class="bar history__friend_one">
+                            <span class="history__friend friend_one_icon"></span>
+                            <span class="history-user__label">Nick Leoniuk</span>
+                       </div>
+                       <div class="bar history__friend_two">
+                            <span class="history__friend friend_two_icon"></span>
+                            <span class="history-user__label">Aleksandr Gnorr</span>
+                       </div>
+                       <div class="bar history__teacher">
+                            <span class="history__friend teacher_icon"></span>
+                            <span class="history-user__label">Mikalai Yankoits</span>
+                       </div>
+                    </div>
+                </div>
+                <div class="user-post">
+                    <div class="user-post__header">
+                        <a class="post-group__avatar" href="#">
+                            <img class="group__avatar" src="IMG/post__group_icon.jpg" alt="Иконка пользователя">
+                        </a>
+                        <a class="post-group__name" href="#">
+                            <span class="group__name">Бульбаш #ЛучшеДома</span>
+                            <span class="post-group__date">15 мая ў 1:32</span>
+                        </a>
+                        <div class="post__settings-icon">
+                            <div class="post__settings-menu">
+                                <div class="hint__context-before context-before_special"></div>
+                                <a class="settings-menu" href="#">Апавяшчаць пра запісы</a>
+                                <a class="settings-menu" href="#">Захаваць у закладках</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="user-post__main">
+                        <div class="user-post__media">
+                            <a class="post__media" href="#"></a>
+                        </div>
+                    </div>
+                    <div class="like-bar">
+                        <div class="count-panel">
+                            <div class="like-buttons">
+                                <a class="like-button like-button_special" href="#">
+                                    <div class="like-button__icon like-button__icon_special"></div>
+                                    <div class="like-button__count like-button__count_special">502</div>
+                                </a>
+                                <a class="comments-button" href="#">
+                                    <div class="comments-button__icon comments-button__icon_special"></div>
+                                    <div class="comments-button__count comments-button__count_special">4</div>
+                                </a>
+                                <a class="share-button" href="#">
+                                    <div class="share-button__icon share-button__icon_special"></div>
+                                    <div class="share-button__count share-button__count_special">20</div>
+                                </a>
+                            </div>
+                            <div class="like-views">20K</div>
+                        </div>
+                    </div>
+                    <div class="like-settings">
+                        <span class="like-settings__name">Спачатку цікавыя</span>
+                    </div>
+                    <div class="users-comments">
+                        <div class="user-comment">
+                            <a class="user-comment__avatar" href="#">
+                                <img class="post__user-avatar" src="IMG/taksin.jpg" alt="Иконка пользователя">
+                            </a>
+                            <div class="comment comment_special-top">
+                                <div class="name-author">
+                                    <a class="author" href="#">Шульга Андрэй</a>
+                                </div>
+                                <div class="author__text">
+                                    <span class="text">Вось гэта жарт :)</span> 
+                                    <a class="comment-footer" href="#">
+                                        <span class="post-group__date date_special">15 мая ў 1:32</span>
+                                        <span class="quote">Адказаць</span>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="comment__setting comment__setting_special-top">
+                                <div class="comment-close comment-close_hidden comment-close_active">
+                                    <abbr class="hint__context hint__context_hidden hint__context_special">Паскардзіцца
+                                        <span class="hint__context-before hint__context-before_special"></span>
+                                    </abbr>
+                                </div>
+                                <a class="comment__like-button" href="#">
+                                    <div class="comment__like-icon"></div>
+                                    <div class="comment__like-count">16</div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="user-comment user-comment_special">
+                            <a class="user-comment__avatar" href="#">
+                                <img class="post__user-avatar" src="IMG/garynych_ilua.jpg" alt="Иконка пользователя">
+                            </a>
+                            <div class="comment comment_special-top comment_special-bottom">
+                                <div class="name-author">
+                                    <a class="author" href="#">Лобыр Ілля</a>
+                                </div>
+                                <div class="author__text">
+                                    <span class="text">Выдаляй, пакуль і над табой не пажартавалі )))</span> 
+                                    <a class="comment-footer" href="#">
+                                        <span class="post-group__date date_special">17 мая ў 23:42</span>
+                                        <span class="quote">Адказаць</span>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="comment__setting comment__setting_special-top comment__setting_special-bottom">
+                                <div class="comment-close comment-close_hidden comment-close_active">
+                                    <abbr class="hint__context hint__context_hidden hint__context_special">Паскардзіцца
+                                        <span class="hint__context-before hint__context-before_special"></span>
+                                    </abbr>
+                                </div>
+                                <a class="comment__like-button" href="#">
+                                    <div class="comment__like-icon"></div>
+                                    <div class="comment__like-count">8</div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="user-comment">
+                            <a class="user-comment__avatar" href="#">
+                                <img class="post__user-avatar" src="IMG/adamant_arhangel.jpg" alt="Иконка пользователя">
+                            </a>
+                            <div class="comment">
+                                <div class="name-author">
+                                    <a class="author" href="#">Салаўёў Віктар</a>
+                                </div>
+                                <div class="author__text">
+                                    <div class="text text_special">
+                                        <img class="emoji" src="IMG/emoji.png" alt="😂">
+                                        <img class="emoji" src="IMG/emoji.png" alt="😂">
+                                        <img class="emoji" src="IMG/emoji.png" alt="😂">
+                                        <img class="emoji" src="IMG/emoji.png" alt="😂">
+                                    </div> 
+                                    <a class="comment-footer" href="#">
+                                        <span class="post-group__date date_special">18 мая ў 0:59</span>
+                                        <span class="quote">Адказаць</span>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="comment__setting">
+                                <div class="comment-close comment-close_hidden comment-close_active">
+                                    <abbr class="hint__context hint__context_hidden hint__context_special">Паскардзіцца
+                                        <span class="hint__context-before hint__context-before_special"></span>
+                                    </abbr>
+                                </div>
+                                <a class="comment__like-button" href="#">
+                                    <div class="comment__like-icon like-icon_special"></div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="user-comment">
+                            <a class="user-comment__avatar" href="#">
+                                <img class="post__user-avatar" src="IMG/a.panteley.jpg" alt="Иконка пользователя">
+                            </a>
+                            <div class="comment comment_special-bottom">
+                                <div class="name-author">
+                                    <a class="author" href="#">Пантелееў Аляксадр</a>
+                                </div>
+                                <div class="author__text">
+                                    <div class="text">
+                                        А я нават і падабайку паставіць баюся
+                                        <img class="emoji" src="IMG/emoji_cry.png" alt="😥">
+                                    </div> 
+                                    <a class="comment-footer" href="#">
+                                        <span class="post-group__date date_special">18 мая ў 2:32</span>
+                                        <span class="quote">Адказаць</span>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="comment__setting comment__setting_special-bottom">
+                                <div class="comment-close comment-close_hidden comment-close_active">
+                                    <abbr class="hint__context hint__context_hidden hint__context_special">Паскардзіцца
+                                        <span class="hint__context-before hint__context-before_special"></span>
+                                    </abbr>
+                                </div>
+                                <a class="comment__like-button" href="#">
+                                    <div class="comment__like-icon like-icon_special"></div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>                     
+                    <div class="quote-new">
+                        <a class="user-quote__avatar" href="#">
+                            <img class="quote__user-avatar" src="IMG/taksin.jpg" alt="Иконка пользователя">
+                        </a>
+                        <div class="quote-new__input">
+                            <input type="text" class="quote__input" autocomplete="off" required placeholder="Напісаць каментарый...">
+                            <button class="quote__send"></button>
+                            <a class="quote__emoji" href="#">
+                                <div class="emoji__select"></div>
+                            </a>
+                            <a class="quote__photo" href="#">
+                                <div class="photo__select"></div>
+                            </a>
+                            <a class="quote__media" href="#">
+                                <div class="media__select"></div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="user-post">
+                    <div class="user-post__header">
+                        <a class="post-group__avatar" href="#">
+                            <img class="group__avatar" src="IMG/volski.jpg" alt="Иконка пользователя">
+                        </a>
+                        <a class="post-group__name" href="#">
+                            <span class="group__name">Lavon Volski & NRM/МРОЯ/Крамбамбуля/ZET</span>
+                            <span class="post-group__date">19 мая ў 2:46</span>
+                        </a>
+                        <div class="post__settings-icon">
+                            <div class="post__settings-menu">
+                                <div class="hint__context-before context-before_special"></div>
+                                <a class="settings-menu" href="#">Апавяшчаць пра запісы</a>
+                                <a class="settings-menu" href="#">Захаваць у закладках</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="user-post__main">
+                        <div class="user-post__media">
+                            <iframe  class="post__media_special" src="https://www.youtube.com/embed/58O-Gtyxgp0"></iframe>
+                        </div>
+                    </div>
+                    <div class="like-bar">
+                        <div class="count-panel">
+                            <div class="like-buttons">
+                                <a class="like-button like-button_special" href="#">
+                                    <div class="like-button__icon like-button__icon_special"></div>
+                                    <div class="like-button__count like-button__count_special">142</div>
+                                </a>
+                                <a class="comments-button" href="#">
+                                    <div class="comments-button__icon comments-button__icon_special"></div>
+                                    <div class="comments-button__count comments-button__count_special"></div>
+                                </a>
+                                <a class="share-button" href="#">
+                                    <div class="share-button__icon share-button__icon_special"></div>
+                                    <div class="share-button__count share-button__count_special">14</div>
+                                </a>
+                            </div>
+                            <div class="like-views">1.5K</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="user-post">
+                    <div class="user-post__header">
+                        <a class="post-group__avatar" href="#">
+                            <img class="group__avatar" src="IMG/kish.jpg" alt="Иконка пользователя">
+                        </a>
+                        <a class="post-group__name" href="#">
+                            <span class="group__name">Король и Шут</span>
+                            <span class="post-group__date">19 мая ў 3:11</span>
+                        </a>
+                        <div class="post__settings-icon">
+                            <div class="post__settings-menu">
+                                <div class="hint__context-before context-before_special"></div>
+                                <a class="settings-menu" href="#">Апавяшчаць пра запісы</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="user-post__main">
+                        <div class="user-post__media">
+                            <a class="post__media_kish" href="#"></a>
+                        </div>
+                    </div>
+                    <div class="like-bar">
+                        <div class="count-panel">
+                            <div class="like-buttons">
+                                <a class="like-button like-button_special" href="#">
+                                    <div class="like-button__icon like-button__icon_special"></div>
+                                    <div class="like-button__count like-button__count_special">28</div>
+                                </a>
+                                <a class="share-button" href="#">
+                                    <div class="share-button__icon share-button__icon_special"></div>
+                                    <div class="share-button__count share-button__count_special">1</div>
+                                </a>
+                            </div>
+                            <div class="like-views">1.1K</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="news__feed-menu">
+                <nav class="feed-menu">
+                    <input type="radio" id="nws" name="feed" class="feed-list__input" checked="checked">
+                    <input type="radio" id="photo" name="feed" class="subitem__input">
+                    <input type="radio" id="video" name="feed" class="subitem__input">
+                    <input type="radio" id="covid" name="feed" class="subitem__input">
+                    <input type="radio" id="stayhome" name="feed" class="subitem__input">
+                    <input type="radio" id="rcmd" name="feed" class="feed-list__input">
+                    <input type="radio" id="serch" name="feed" class="feed-list__input">
+                    <input type="radio" id="like" name="feed" class="feed-list__input">
+                    <input type="radio" id="update" name="feed" class="feed-list__input">
+                    <input type="radio" id="cmnt" name="feed" class="feed-list__input">
+                    <div class="feed-menu__slider"></div>
+                    <ul class="feed-list feed-list_nws">
+                        <li class="feed-list__item">
+                            <label for="nws" class="feed-list__label">Навіны
+                                <span class="feed-list__icon-filter icon-filter_friends"></span>
+                                <span class="feed-list__icon-filter icon-filter_options"></span>
+                            </label>
+                        </li>
+                    </ul>
+                    <div class="subitems__menu">
+                        <ul class="subitems">
+                            <li class="subitems__item">
+                                <label for="photo" class="subitem">Фотаздымкі</label>
+                            </li>
+                        </ul>
+                        <ul class="subitems">
+                            <li class="subitems__item">
+                                <label for="video" class="subitem">Відэазапісы</label>
+                            </li>
+                        </ul>
+                        <ul class="subitems">
+                            <li class="subitems__item">
+                                <label for="covid" class="subitem">Каранавірус
+                                    <img class="subitem__icon icon_covid" src="IMG/covid.png" alt="🦠">
+                                </label>
+                            </li>
+                        </ul>
+                        <ul class="subitems">
+                            <li class="subitems__item">
+                                <label for="stayhome" class="subitem">#заставайцесядома
+                                    <img class="subitem__icon icon_stayhome" src="IMG/stayhome.png" alt="🏡">
+                                </label>
+                            </li>
+                        </ul>
+                    </div>
+                    <ul class="feed-list feed-list_rcmd">
+                        <li class="feed-list__item">
+                            <label for="rcmd" class="feed-list__label">Рэкамендацыі</label>
+                        </li>
+                    </ul>
+                    <ul class="feed-list feed-list_serch">
+                        <li class="feed-list__item">
+                            <label for="serch" class="feed-list__label">Пошук</label>
+                        </li>
+                    </ul>
+                    <div class="feed-list__line"></div>
+                    <ul class="feed-list feed-list_like">
+                        <li class="feed-list__item">
+                            <label for="like" class="feed-list__label">Спадабалася</label>
+                        </li>
+                    </ul>
+                    <ul class="feed-list feed-list_update">
+                        <li class="feed-list__item">
+                            <label for="update" class="feed-list__label">Абнаўленні</label>
+                        </li>
+                    </ul>
+                    <ul class="feed-list feed-list_cmnt">
+                        <li class="feed-list__item">
+                            <label for="cmnt" class="feed-list__label">Каментарыі</label>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="best__news">
+                    <input type="checkbox" id="best" class="best__news-button">
+                    <label class="best__news-label" for="best">
+                        <span class="best__news-icon"></span>
+                        Спачатку цікавыя
+                        <span class="button-bar"></span>
+                        <span class="button-roller"></span>
+                    </label> 
+                </div>
+            </div>
+        </div>
+	</main>
+</body>
+</html>
