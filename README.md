@@ -34,4 +34,4 @@
 ### *ДЗ №14.2*
 * [Вентилятор](https://github.com/AdukarIT/ShulgaAV/tree/master/14_Pro_CSS_Transition_Animation/Fan)
 ### *ДЗ №14.3*
-* [Спрайты](https://github.com/AdukarIT/ShulgaAV/tree/master/14_Pro_CSS_Transition_Animation/Sprite__SubZero)
+* [Спрайты](https://github.com/AdukarIT/ShulgaAV/tree/master/14_Pro_CSS_Transition_Animation/Sprite_SubZero)
