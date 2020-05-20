@@ -1,0 +1,30 @@
+body{
+	margin: 25px;
+}
+
+.block{
+	width: 400px;
+	height: 400px;
+	border: 2px solid red;
+}
+
+label{
+	display: block;
+	background: url(IMG/soccer_ball.png) no-repeat 100%/contain;
+	width: 100px;
+	height: 100px;
+}
+
+input{
+	display: none;
+}
+
+input:checked + label{
+	transform: translate(302px, 150px);
+	transition: transform 1.5s ease-out;
+}
+
+input:not(:checked) + label{
+	transform: translate(0, 150px);
+	transition: transform 1.5s ease-out;
+}

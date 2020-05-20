@@ -1,0 +1,19 @@
+body{
+	margin: 25px;
+}
+
+.sprite{
+	width: 66px;
+	height: 135px;
+	background: url("IMG/subzero.jpg") no-repeat;
+}
+
+@keyframes subzero {
+	from{background-position: 0px;}
+	to{background-position: -462px;}
+}
+
+.sprite:hover{
+	animation: subzero 0.3s steps(7) infinite alternate;
+}
+

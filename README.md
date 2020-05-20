@@ -28,3 +28,10 @@
 ## **12. CSS.Flexbox**
 ### *ДЗ №12*
 * [Макет для страницы новостей ВКонтакте](https://github.com/AdukarIT/ShulgaAV/tree/master/12_Pro_CSS_Flexbox)
+## **14. CSS.Трансформация и анимация**
+### *ДЗ №14.1*
+* [Прыгающий мяч](https://github.com/AdukarIT/ShulgaAV/tree/master/14_Pro_CSS_Transition_Animation/Ball)
+### *ДЗ №14.2*
+* [Вентилятор](https://github.com/AdukarIT/ShulgaAV/tree/master/14_Pro_CSS_Transition_Animation/Fan)
+### *ДЗ №14.3*
+* [Спрайты](https://github.com/AdukarIT/ShulgaAV/tree/master/14_Pro_CSS_Transition_Animation/Sprite__SubZero)

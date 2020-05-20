@@ -1,0 +1,25 @@
+body{
+	margin: 25px;
+}
+
+.block{
+	width: 400px;
+	height: 400px;
+	border: 2px solid black;
+	border-radius: 50%;
+}
+
+.fan-picture{
+	margin: 60px;
+	width: 280px;
+	height: 280px;
+}
+
+.fan-picture:hover{
+	transform: rotateZ(1080deg);
+	transition: transform 5s ease-out;
+}
+
+.fan-picture:not(:hover){
+	transition: transform 5s ease-out;
+}
