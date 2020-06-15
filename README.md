@@ -36,7 +36,7 @@
 ### *ДЗ №14.3*
 * [Спрайты](https://github.com/AdukarIT/ShulgaAV/tree/master/14_Pro_CSS_Transition_Animation/Sprite_SubZero)
 ## **15. Итоговая работа по вёрстке**
-### *Репозиторий на GitHub Pages(https://github.com/AndreiShulga/AndreiShulga.github.io)*
+### *[Репозиторий на GitHub Pages]*(https://github.com/AndreiShulga/AndreiShulga.github.io)
 * [Главная страница Ableton](https://andreishulga.github.io/ableton.html)
 * [Страница About Ableton](https://andreishulga.github.io/about.html)
 * [Страница Shop/Education offers](https://andreishulga.github.io/education.html)
