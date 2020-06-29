@@ -40,16 +40,14 @@
 * [Главная страница Ableton](https://andreishulga.github.io/ableton.html)
 * [Страница About Ableton](https://andreishulga.github.io/about.html)
 * [Страница Shop/Education offers](https://andreishulga.github.io/education.html)
-## **24. JS.Операторы.Циклы**
-### *ДЗ №24*
-* [Задача-1_JS](https://github.com/AdukarIT/ShulgaAV/tree/master/24_JavaScript_If_While_For/1_JS)
-* [Задача-2_JS](https://github.com/AdukarIT/ShulgaAV/tree/master/24_JavaScript_If_While_For/2_JS)
-* [Задача-3_JS](https://github.com/AdukarIT/ShulgaAV/tree/master/24_JavaScript_If_While_For/3_JS)
-* [Задача-4_JS](https://github.com/AdukarIT/ShulgaAV/tree/master/24_JavaScript_If_While_For/4_JS)
-* [Задача-5_JS](https://github.com/AdukarIT/ShulgaAV/tree/master/24_JavaScript_If_While_For/5_JS)
-* [Задача-6_JS](https://github.com/AdukarIT/ShulgaAV/tree/master/24_JavaScript_If_While_For/6_JS)
-* [Задача-7_JS](https://github.com/AdukarIT/ShulgaAV/tree/master/24_JavaScript_If_While_For/7_JS)
-## **25. JS.Функции**
+## **25. JS.Операторы.Циклы**
 ### *ДЗ №25*
-* [Задачи-1..5_JS](https://github.com/AdukarIT/ShulgaAV/tree/master/25_JavaScript_Functions)
-* [Задача-6_JS] - пока не решил :)
+* [Задача-1..7_JavaScript_If_While_For](https://github.com/AdukarIT/ShulgaAV/tree/master/25_JavaScript_If_While_For)
+
+## **26. JS.Функции**
+### *ДЗ №26*
+* [Задачи-1..6_JavaScript_Functions](https://github.com/AdukarIT/ShulgaAV/tree/master/26_JavaScript_Functions)
+
+## **27. JS.Поиск ошибок и отладка кода. Практика**
+### *ДЗ №27*
+* [Задачи-3,4,6,8,9,11_JavaScript_Debugg_Practice](https://github.com/AdukarIT/ShulgaAV/tree/master/27_JavaScript_Debugg_Practice)

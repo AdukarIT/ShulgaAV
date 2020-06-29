@@ -52,13 +52,12 @@ function factorial (base) {
 
 
 // // Задача №6
-// console.log (numberBackwards (1234));
-// function numberBackwards (numb) {
-// 	let numbr;
-// 	let i = 4;
-// 	for (i; i <= 1; i--) {
-// 		numbr = numbr + Number(Math.trunc(numberBackwards(numb)*i/1000));
-// 		}
-// 		return numbr;
-		
-// }
+// let numb = prompt ("Введите любое число");
+// console.log (numberBackwards (numb));
+function numberBackwards (numb, numbRevers = 0) {
+	if (numb == 0) {
+	return numbRevers;
+	}
+	numbRevers = numbRevers * 10 + numb % 10;
+	return numberBackwards (Math.floor( numb / 10), numbRevers);
+}
