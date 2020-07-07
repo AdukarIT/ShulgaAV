@@ -49,5 +49,13 @@
 * [Задачи-1..6_JavaScript_Functions](https://github.com/AdukarIT/ShulgaAV/tree/master/26_JavaScript_Functions)
 
 ## **27. JS.Поиск ошибок и отладка кода. Практика**
-### *ДЗ №27*
-* [Задачи-3,4,6,8,9,11_JavaScript_Debugg_Practice](https://github.com/AdukarIT/ShulgaAV/tree/master/27_JavaScript_Debugg_Practice)
+### *ДЗ №27 - поправил старые задачи, решил 12-ую*
+* [Задачи-3,4,6,8,9,11,12_JavaScript_Debugg_Practice](https://github.com/AdukarIT/ShulgaAV/tree/master/27_JavaScript_Debugg_Practice)
+
+## **28. JS.Массивы**
+### *ДЗ №28 - Все задачи решаются одновременно через один запуск html, вводим два числа и всё :) Теория вероятности в задаче №7 быстрее сработает, если длина массива >= 10*
+* [Задачи-1..9_JavaScript_Array](https://github.com/AdukarIT/ShulgaAV/tree/master/28_JavaScript_Array)
+
+## **29. JS.Объекты**
+### *ДЗ №29*
+* [Задачи-1..Сегодня постараюсь сделать_JavaScript_Objects](https://github.com/AdukarIT/ShulgaAV/tree/master/29_JavaScript_Objects)
