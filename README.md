@@ -58,4 +58,7 @@
 
 ## **29. JS.Объекты**
 ### *ДЗ №29*
-* [Задачи-1..Сегодня постараюсь сделать_JavaScript_Objects](https://github.com/AdukarIT/ShulgaAV/tree/master/29_JavaScript_Objects)
+* [Задачи-1..4_JavaScript_Objects](https://github.com/AdukarIT/ShulgaAV/tree/master/29_JavaScript_Objects)
+
+## **30. JS.Встроенные возможности**
+### *ДЗ №30 - не успел :(*
