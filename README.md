@@ -61,8 +61,8 @@
 * [Задачи-1..4_JavaScript_Objects](https://github.com/AdukarIT/ShulgaAV/tree/master/29_JavaScript_Objects)
 
 ## **30. JS.Встроенные возможности**
-### *ДЗ №30 - пока няма задач 4...8, мозг уже кипит :)*
-* [Задачи-1,2,3_JavaScript_Math_String_Date](https://github.com/AdukarIT/ShulgaAV/tree/master/30_JavaScript_Math_String_Date)
+### *ДЗ №30*
+* [Задачи-1...8_JavaScript_Math_String_Date](https://github.com/AdukarIT/ShulgaAV/tree/master/30_JavaScript_Math_String_Date)
 
 ## **32. JS.Продвинутый.Замыкания.Методы массивов с функциями обратного вызова**
-### *ДЗ №32 - не успел :(*
+### *ДЗ №32 - пока няма :(*

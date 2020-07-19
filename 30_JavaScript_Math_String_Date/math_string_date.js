@@ -89,3 +89,115 @@ function symbolOfString(str) {
 	} 
 	return sumSymbols.join(" ");
 }
+
+
+// Задача №4
+// let str = prompt("Введите любое слово или предложение");
+// capitalLetter(str);
+function capitalLetter(str) {
+	str = str.toLowerCase().trim();
+	let strNew = str.split('');
+	for (let i = 0; i < str.length; i++) {
+		for (let j = i - 1; ;) {
+			if ( str.charCodeAt(j) >= 97 && str.charCodeAt(j) <= 122
+				|| str.charCodeAt(j) >= 1072 && str.charCodeAt(j) <= 1103
+				|| str.charCodeAt(j) === 1105) {
+				break;
+			} else if (str.charCodeAt(i) >= 97 && str.charCodeAt(i) <= 122
+						|| str.charCodeAt(i) >= 1072 && str.charCodeAt(i) <= 1103
+						|| str.charCodeAt(i) === 1105) {
+				strNew[i] = str[i].toUpperCase();
+				break;
+			} else {
+				break;
+			}
+		}
+	}
+	console.log(`Все слова с заглавной буквы: "${strNew.join('')}"`);
+}
+
+
+// Задача №5
+// let str = prompt("Введите любое слово или предложение");
+// duplicateLetters(str);
+function duplicateLetters(str) {
+	str = str.trim();
+	let strNew = str.split('');
+	str = str.toLowerCase();
+	for (let i = 0; i < str.length; i++) {
+		for (let j = i + 1; j < str.length; j++) {
+			if ( str.charCodeAt(i) >= 97 && str.charCodeAt(i) <= 122
+				|| str.charCodeAt(i) >= 1072 && str.charCodeAt(i) <= 1103
+				|| str.charCodeAt(i) === 1105) {
+
+				if (str[i].indexOf(str[j]) != -1) {
+					strNew[j] = String.fromCharCode(42);
+				}
+			} else {
+				break;
+			}
+		}
+	}
+	console.log(`Все повторяющиеся буквы заменены на * => "${strNew.join('')}"`);
+}
+
+
+// Задача №6
+// console.log(weekDayRus());
+function weekDayRus(now = new Date()) {
+	let dayRus = ["Воскресенье", "Понедельник", "Вторник", "Среда", "Четверг", "Пятница", "Суббота"];
+	return `текущий день недели => ${dayRus[now.getDay()]}`;
+}
+
+
+// Задача №7
+// let date = prompt(`Введите дату в формате "ДД-ММ-ГГГГ"`);
+// console.log(`В введённой дате "${date}" ${weekDayInDate()}`);
+function weekDayInDate() {
+	let dateArr = date.split("-").reverse();
+	return weekDayRus(new Date(dateArr));
+}
+
+
+// Задача №8.1
+// let date = prompt(`Введите дату своего рождения в формате "ДД-ММ-ГГГГ"`);
+// console.log(`Количество дней до следующего Дня Рождения => ${daysFromBirthday()}`);
+function daysFromBirthday() {
+	let now = new Date();
+	now.setHours(0);
+	now.setMinutes(0);
+	now.setSeconds(0);
+	let dateArr = date.split("-").reverse();
+	let dateNew = new Date(dateArr);
+	dateNew.setFullYear(now.getFullYear());
+	if (now.getTime() < dateNew.getTime()) {
+		return Math.floor((dateNew.getTime() - now.getTime()) / 86400000);
+	} else {
+		dateNew.setFullYear(dateNew.getFullYear() + 1);
+		return Math.floor((dateNew.getTime() - now.getTime()) / 86400000);
+	}
+	
+}
+
+
+// Задача №8.2
+// console.log(`Дата ближайшего 1000-дневного юбилея => "${jubilee()}"`);
+function jubilee() {
+	let now = new Date();
+	now.setHours(0);
+	now.setMinutes(0);
+	now.setSeconds(0);
+	let dateArr = date.split("-").reverse();
+	let dateNew = new Date(dateArr);
+	let days = Math.floor((now.getTime() - dateNew.getTime()) / 86400000);
+	let buf = days;
+	while (buf % 1000 > 0) {
+		if (buf % 1000 != 0) {
+			buf += 1;
+		}
+	}
+	let dateJubilee = new Date(now.getTime() + ((buf - days) * 86400000));
+	console.log(`Вам скоро исполнится => ${buf} дней`);
+	return dateJubilee.toDateString();
+	
+}
