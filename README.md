@@ -49,11 +49,11 @@
 * [Задачи-1..6_JavaScript_Functions](https://github.com/AdukarIT/ShulgaAV/tree/master/26_JavaScript_Functions)
 
 ## **27. JS.Поиск ошибок и отладка кода. Практика**
-### *ДЗ №27 - поправил старые задачи, решил 12-ую*
+### *ДЗ №27*
 * [Задачи-3,4,6,8,9,11,12_JavaScript_Debugg_Practice](https://github.com/AdukarIT/ShulgaAV/tree/master/27_JavaScript_Debugg_Practice)
 
 ## **28. JS.Массивы**
-### *ДЗ №28 - Все задачи решаются одновременно через один запуск html, вводим два числа и всё :) Теория вероятности в задаче №7 быстрее сработает, если длина массива >= 10*
+### *ДЗ №28*
 * [Задачи-1..9_JavaScript_Array](https://github.com/AdukarIT/ShulgaAV/tree/master/28_JavaScript_Array)
 
 ## **29. JS.Объекты**
@@ -65,4 +65,5 @@
 * [Задачи-1...8_JavaScript_Math_String_Date](https://github.com/AdukarIT/ShulgaAV/tree/master/30_JavaScript_Math_String_Date)
 
 ## **32. JS.Продвинутый.Замыкания.Методы массивов с функциями обратного вызова**
-### *ДЗ №32 - пока няма :(*
+### *ДЗ №32 - 6 и 7 пока не осилил*
+* [Задачи-1...5_JavaScript_Pro_Closures_Callback](https://github.com/AdukarIT/ShulgaAV/tree/master/32_JavaScript_Pro_Closures_Callback)
