@@ -65,5 +65,5 @@
 * [Задачи-1...8_JavaScript_Math_String_Date](https://github.com/AdukarIT/ShulgaAV/tree/master/30_JavaScript_Math_String_Date)
 
 ## **32. JS.Продвинутый.Замыкания.Методы массивов с функциями обратного вызова**
-### *ДЗ №32 - 6 и 7 пока не осилил*
-* [Задачи-1...5_JavaScript_Pro_Closures_Callback](https://github.com/AdukarIT/ShulgaAV/tree/master/32_JavaScript_Pro_Closures_Callback)
+### *ДЗ №32*
+* [Задачи-1...7_JavaScript_Pro_Closures_Callback](https://github.com/AdukarIT/ShulgaAV/tree/master/32_JavaScript_Pro_Closures_Callback)
