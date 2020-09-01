@@ -1,0 +1,103 @@
+<!DOCTYPE HTML>
+<html>
+<head> 
+	<meta charset="utf-8">
+	<title>JS_DOM_Practice</title>
+</head>
+<body> 
+	<form name="search"> 
+		<label>Поиск по сайту: 
+			<input type="text" name="search"> 
+		</label> 
+		<input type="submit" value="Искать!"> 
+	</form> 
+	<hr> 
+	<form name="search-person"> Поиск по посетителям: 
+		<table id="age-table"> 
+			<tr> 
+				<td>Возраст:</td>
+				<td id="age-list"> 
+					<label> 
+						<input type="radio" name="age" value="young">до 18
+					</label> 
+					<label> 
+						<input type="radio" name="age" value="mature">18-50
+					</label> 
+					<label> 
+						<input type="radio" name="age" value="senior">более 50
+					</label> 
+				</td>
+			</tr>
+			<tr> 
+				<td>Дополнительно:</td>
+				<td> 
+					<input type="text" name="info[0]"> 
+					<input type="text" name="info[1]"> 
+					<input type="text" name="info[2]"> 
+				</td>
+			</tr>
+		</table> 
+		<input type="submit" value="Искать!"> 
+	</form>
+	<script>
+		// Практика.Задание №1 - 'Все элементы label внутри таблицы. Должно быть 3 элемента.'
+		console.log(document.getElementById("age-list").children);
+
+		// Практика.Задание №2 'Первую ячейку таблицы (со словом "Возраст").'
+		console.log(document.querySelector(`td`).innerHTML);
+
+		// Практика.Задание №3 - 'Вторую форму в документе.'
+		console.log(document.getElementsByTagName(`form`)[1]);
+
+		// Практика.Задание №4 - 'Форму с именем search, без использования её позиции в документе.'
+		console.log(document.getElementsByName(`search`)[0]);
+
+		// Практика.Задание №5 - 'Элемент input в форме с именем search. Если их несколько, то нужен первый.'
+		console.log(document.getElementsByTagName(`input`)[0]);
+
+		// Практика.Задание №6 - 'Элемент с именем info[0], без точного знания его позиции в документе.'
+		console.log(document.getElementsByName(`info[0]`));
+
+		// Практика.Задание №7 - 'Элемент с именем info[0], внутри формы с именем search-person.'
+		console.log(document.body.children[2].firstElementChild.getElementsByTagName(`input`)[3]);
+
+		// Практика.Задание №8 - 'Добавьте на страницу select с несколькими опциями, свяжите его с лейблом и вставьте оба элемента перед кнопкой «Искать».'
+		let select = document.createElement(`select`);
+		select.setAttribute(`id`, `sel`);
+
+		let option1 = document.createElement(`option`);
+		option1.setAttribute(`value`, `гетеросексуал`);
+		option1.textContent = `гетеросексуал`;
+
+		let option2 = document.createElement(`option`);
+		option2.setAttribute(`value`, `асексуал`);
+		option2.textContent = `асексуал`;
+
+		let option3 = document.createElement(`option`);
+		option3.setAttribute(`value`, `бисексуал`);
+		option3.textContent = `бисексуал`;
+
+		let option4 = document.createElement(`option`);
+		option4.setAttribute(`value`, `гомосексуал`);
+		option4.textContent = `гомосексуал`;
+
+		let label = document.createElement(`label`);
+		label.setAttribute(`for`, `sel`);
+		label.textContent = `Выберите тип сексуальности:`;
+
+		select.appendChild(option1);
+		select.appendChild(option2);
+		select.appendChild(option3);
+		select.appendChild(option4);
+
+		let searchOne = document.querySelector(`[type="submit"]`);
+		let spaceOne = document.createTextNode(' ');
+		let spaceTwo = document.createTextNode(' ');
+
+		searchOne.before(label);
+		searchOne.before(spaceOne);
+		searchOne.before(select);
+		searchOne.before(spaceTwo);
+	</script>
+</body>
+</html>
