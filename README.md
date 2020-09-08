@@ -67,3 +67,11 @@
 ## **32. JS.Продвинутый.Замыкания.Методы массивов с функциями обратного вызова**
 ### *ДЗ №32*
 * [Задачи-1...7_JavaScript_Pro_Closures_Callback](https://github.com/AdukarIT/ShulgaAV/tree/master/32_JavaScript_Pro_Closures_Callback)
+
+## **33. JS.DOM.Работа со страницей**
+### *Практика + ДЗ №33*
+* [Задачи-1...7_JavaScript_DOM_Practice + Задачи-1...6_JavaScript_DOM_Home_Work](https://github.com/AdukarIT/ShulgaAV/tree/master/33_JavaScript_DOM)
+
+# **34. JS.События**
+### *Практика + ДЗ №34*
+* [Задачи-1...2_Practice + Задачи-1...5_JavaScript_Events](https://github.com/AdukarIT/ShulgaAV/tree/master/34_JavaScript_Events)
