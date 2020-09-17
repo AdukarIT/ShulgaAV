@@ -1,0 +1,134 @@
+<!DOCTYPE HTML>
+<html>
+<head> 
+	<meta charset="utf-8">
+	<title>JS_Forms_Regular_Home_Work</title>
+	<script type="text/javascript" src="js_forms_regular.js"></script>
+	<style type="text/css">
+		td {
+			width: 140px;
+		}
+		.sum-diagram,
+		.profit-diagram {
+			vertical-align: bottom;
+			width: 60px;
+			height: 100px;
+		}
+		.diagram_one {
+			background: red;
+		}
+		.diagram_two{
+			background: green;
+		}
+		.diagram_one,
+		.diagram_two {
+			margin: auto;
+			width: 50px;
+			height: 0;
+		}
+		.form {
+			margin-top: 10px;
+			height: 150px;
+			display: flex;
+			flex-direction: column;
+			justify-content: space-around;
+		}
+		.form > label {
+			display: flex;
+			flex-direction: row;
+			justify-content: flex-end;
+			width: 280px;
+		}
+		label > input {
+			margin-left: auto;
+		}
+	</style>
+</head>
+<body> 
+	<form name="one">
+		<select name="list">
+			<option value="one">Один</option>
+			<option value="two">Два</option>
+		</select>
+	</form>
+	<br><br><br><br><br>
+	<form>
+		<span>Калькулятор процентов, из расчёта 12% годовых:</span>
+		<table>
+			<tr>
+				<td>Сумма:</td>
+				<td>
+					<input type="number" name="sum" value="10000">
+				</td>
+			</tr>
+			<tr>
+				<td>Срок в месяцах:</td>
+				<td>
+					<select class="term">
+						<option value="3">3 (минимум)</option>
+						<option value="6">6 (полгода)</option>
+						<option value="12">12 (1 год)</option>
+						<option value="18">18 (1,5 года)</option>
+						<option value="24">24 (2 года)</option>
+						<option value="30">30 (2,5 года)</option>
+						<option value="36">36 (3 года)</option>
+						<option value="60">60 (5 лет)</option>
+					</select>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<label for="cap">С капитализацией:</label>
+				</td>
+				<td>
+					<input type="checkbox" name="capital" id="cap">
+				</td>
+			</tr>
+		</table>
+	</form>
+	<form>
+		<table>
+			<tr>
+				<th>Было:</th>
+				<th>Станет:</th>
+			</tr>
+			<tr>
+				<th class="sum"></th>
+				<th class="profit"></th>
+			</tr>
+			<tr>
+				<td class="sum-diagram">
+					<div class="diagram_one" id="diagrOne"></div>
+				</td>
+				<td class="profit-diagram">
+					<div class="diagram_two" id="diagrTwo"></div>
+				</td>
+			</tr>
+		</table>
+	</form>
+	<br>
+	<form name="registrationForm" method="post">
+		<div>Форма регистрации(Практика_№5 и ДЗ_№1):</div>
+		<div class="form">
+			<label class="label">Логин:
+				<input type="text" id="login" placeholder="user" required>
+			</label>
+			<label class="label">E-mail:
+				<input type="email" id="email" placeholder="user@tut.by" required>
+			</label>
+			<label class="label">Телефон:
+				<input type="tel" id="tel" placeholder="+375255055525" required>
+			</label>
+			<label class="label">Пароль:
+				<input type="password" id="psdOne" required>
+			</label>
+			<label class="label">Пароль(повторно):
+				<input type="password" id="psdTwo" required>
+			</label>
+			<div class="check">
+				<input type="button" id="check" value="Согласие на обработку введённых данных!">
+			</div>
+		</div>
+	</form>
+</body>
+</html>

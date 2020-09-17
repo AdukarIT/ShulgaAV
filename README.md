@@ -75,3 +75,7 @@
 ## **34. JS.События**
 ### *Практика + ДЗ №34*
 * [Задачи-1...2_Practice + Задачи-1...5_JavaScript_Events](https://github.com/AdukarIT/ShulgaAV/tree/master/34_JavaScript_Events)
+
+## **36. JS.Формы.Регулярные выражения**
+### *Практика + ДЗ №36*
+* [Задачи-1...2_Practice_Form + Задачи-1...5_Practice_Regular + Задачи-1...4_JavaScript_Forms_Regular](https://github.com/AdukarIT/ShulgaAV/tree/master/36_JavaScript_Forms_Regular)
